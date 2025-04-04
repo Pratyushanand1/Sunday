@@ -3,3 +3,4 @@ Eel
 playsound
 pyttsx3
 SpeechRecognition
+pywhatkit
