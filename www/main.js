@@ -40,9 +40,10 @@ $(document).ready(function () {
     // Mic Button Click Event
 
     $(MicBtn).click(function (e) { 
-        Element.playAssistantSound()
+        eel.playAssistantSound()
         $("#Oval").attr("hidden", true);
         $("#Siriwave").attr("hidden", false);
+        eel.allCommands()()
         
     });
 
